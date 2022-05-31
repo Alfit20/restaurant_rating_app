@@ -1,0 +1,73 @@
+.buttons-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.buttons {
+    border: 0;
+    text-decoration: none;
+    background-color: rgba(28, 28, 28, 0);
+    color: #fff;
+}
+
+.test {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+
+}
+
+.child1 {
+    flex-grow: 1;
+
+}
+
+.child {
+    padding-right: 1rem;
+}
+
+.data {
+    text-align: center;
+}
+
+.container {
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container span {
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+@media (max-width: 500px) {
+    .container {
+        text-align: center;
+    }
+}
+
+.closed .hiddenItem {
+    display: none;
+}
+
+.opened .hiddenItem {
+    display: block;
+}
+
+.card-img-top {
+    margin-top: 30px;
+}
+
+.gallery {
+    width: 50%;
+}
